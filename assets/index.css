@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: rgb(252, 201, 35);
+    display: flex;
+    justify-content: center;
+}
+.title{
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 10vh;
+    margin-top: 1.5vh;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    height: 10px;
+}
+.neg{
+    margin-top: 20vh;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 10vh;
+}
+.mole{
+    margin-bottom: -3vh;
+    margin-left: 8vw;
+    width: 10vw;
+    height: 20vh;
+}
+.dirt{
+    margin-bottom: 3vh;
+    width: 25vw;
+    height: 6vh;
+}
+.button{
+    position: absolute;
+    width: 10vw;
+    height: 5vh;
+    font-size: 3vh;
+    border-radius: 1vw;
+    color: rgb(252, 201, 35);
+    background-color: black;
+    bottom: 18vh;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7vw;
+    height: 7vh;
+    border-radius: 20%;
+    background-color: antiquewhite;
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 7vh;
+    margin-top: 5vh;
+    margin-left: 50vw;
+}
