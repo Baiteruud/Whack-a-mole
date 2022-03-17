@@ -1,24 +1,87 @@
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/amaticsc/v23/TUZyzwprpvBS1izr_vOEDuSfU5cP1V3r.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@keyframes show { 100% {transform: translateY(-1%);}}
+@keyframes hide { 0% {transform: translateY(-1%);},
+ 100% {transform: translateY(100%);}}
+
 body{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
+    margin: auto;
+    margin-top: 25vh;
+    width: 60vw;
+    height: 50vh;
+    max-width: 420px;
     background-color: rgb(255, 198, 0);
 }
 
 .container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: white;
-    width: 60vw;
-    height: 45vw;
+    background-color: transparent;
+    background-image: url(./assets/dirt.svg) ;
+    background-size: clamp(100px, 18vw, 110px), 20vw;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 18vw;
+    height: 20vw;
+    max-width: 120px;
+    max-height: 130px;
+    margin: 5px;
+    overflow: hidden;
 }
 
-.hole{
-    background-color: antiquewhite;
+.mole{
+    height: 100%;
+    width: 100%;
+    transform: translateY(100px);
+    z-index: -1;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+.start{
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 198, 0);
+    border-radius: 5px;
+    border: none;
+    font-size: larger;
     width: 30%;
-    height: 45%;
+    height: 10%;
+    transition-duration: 300ms;
+}
+
+.start:hover{
+    background-color: rgb(20, 20, 20);
+    width: 32%;
+    height: 11%;
+}
+
+.start:active{
+    width: 30%;
+    height: 10%;
+}
+
+.topContainer{
+    display: flex;
+    width: fit-content;
+    height: 100px;
+    font-family: 'Amatic SC';
+    font-size: clamp(5vh, 10vh, 60px);
+}
+
+.score{
+    background-color: rgb(255, 209, 83);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    margin-left: 5px;
 }

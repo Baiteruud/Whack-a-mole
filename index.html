@@ -6,14 +6,28 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700">
 </head>
 <body>
-  <div class="container">
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
-    <div class="hole"></div>
+  <div class="topContainer">WHACK-A-MOLE!
+    <div class="score">0</div>
   </div>
+  <div class="container" onclick="addPoint(this)">
+    <img src="./assets/mole.svg" class="mole">
+  </div>
+  <div class="container" onclick="addPoint(this)">
+    <img src="./assets/mole.svg" class="mole">
+  </div>
+  <div class="container" onclick="addPoint(this)">
+    <img src="./assets/mole.svg" class="mole">
+  </div>
+  <div class="container" onclick="addPoint(this)">
+    <img src="./assets/mole.svg" class="mole">
+  </div>
+  <div class="container" onclick="addPoint(this)">
+    <img src="./assets/mole.svg" class="mole">
+  </div>
+  <div class="container" onclick="addPoint(this)">
+    <img src="./assets/mole.svg" class="mole">
+  </div>
+  <button class="start" onclick="start()">Start!</button>
   <script src="./index.js"></script>
 </body>
 </html>
