@@ -52,13 +52,14 @@ img{
     height: 250px;
 }
 .mole{
-    bottom: 0px;
+    bottom: -40px;
     width: 180px;
+    height: 190px;
     margin-left: 15%;
 }
 
 .dirt{
-    bottom: 140px;
+    bottom: 80px;
 }
 
 h1{
