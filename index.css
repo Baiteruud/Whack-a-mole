@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+    background-color: #ffc600;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50vw;
+    height:30vh
+}
+.dirt{
+    height:30vh;
+    width:20vw;
+    display:flex;
+    align-items:flex-end;
+   
+}
+img{
+    position: absolute;
+}
+.mole{
+    width:15vw;
+    height:30vh;
+
+}
+.dir{
+    width:15vw; 
+}
+span{
+    font-family: Amatic SC;
+    font-size: 100px;
+}
+button{
+    width:5vw;
+    height:5vh;
+    background-color:black;
+    color:#ffc600;
+    font-size:20px;
+    margin-top:20px;
+}
+.title{
+    display:flex;
+    justify-content: space-between;
+    width:30vw;
+    margin-bottom:20px;
+}
