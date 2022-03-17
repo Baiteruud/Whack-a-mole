@@ -31,7 +31,6 @@ body{
 .hole{
     width: 250px;
     height: 250px;
-    border: 1px solid black;
     overflow: hidden;
 }
 
@@ -48,18 +47,17 @@ button{
 
 img{
     position: relative;
-    width: 250px;
-    height: 250px;
 }
 .mole{
-    bottom: -40px;
+    bottom: -250px;
     width: 180px;
     height: 190px;
     margin-left: 15%;
 }
 
 .dirt{
-    bottom: 80px;
+    width: 250px;
+    height: 100px;
 }
 
 h1{
@@ -75,4 +73,8 @@ h1{
     background-color: #d6a800;
     display: flex;
     justify-content: center ;
+}
+
+.up{
+    bottom: -40px;
 }
