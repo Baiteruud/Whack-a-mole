@@ -1,0 +1,34 @@
+body{
+    background: #ffc600;
+    height: 100vh;
+    width: 100vw;
+}
+.bodyOne{
+    height: 100vh;
+    width: 100vw;
+    max-width: 760px;
+    max-height: 500px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1px;
+}
+button{
+    border-radius: 6px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+    background: #222;
+    color: #ffc600;
+}
