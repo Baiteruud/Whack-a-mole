@@ -1,6 +1,9 @@
+let counter=0 ;
+const a = document.querySelector("#count")
+
 function onClickStart(){
- console.log(1);
+   console.log();
 }
 function onClickMole(){
-    console.log(2);
+    a.textContent = counter++;
 }
