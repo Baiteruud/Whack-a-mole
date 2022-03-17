@@ -1,6 +1,6 @@
 # Whack a Mole
 
-![Whack a mole](https://github.com/Leap2k20/js-whack-a-mole/blob/master/assets/intro.png)
+![Whack a mole](https://github.com/Baiteruud/Whack-a-mole/blob/main/assets/intro.png)
 
 ## Тоглох заавар
 
@@ -19,3 +19,5 @@ Font: https://fonts.googleapis.com/css?family=Amatic+SC:400,700
 Images: `assets` folder дотор хэрэгцээт зургууд байгаа.
 
 # Whack-a-mole
+![Mole](https://github.com/Baiteruud/Whack-a-mole/blob/main/assets/mole.svg)
+![Dirt](https://github.com/Baiteruud/Whack-a-mole/blob/main/assets/dirt.svg)
