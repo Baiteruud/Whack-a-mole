@@ -1,5 +1,6 @@
 const moles = document.querySelectorAll(".mole")
 const score = document.querySelector(".score")
+const start = document.querySelector(".start")
 
 function resetAnimation(mole){
     mole.style.animationName = "Placeholder"
@@ -15,6 +16,7 @@ function resetScore(){
 }
 
 function mainHandler(int, lastint){
+    start.setAttribute('onclick', '')
     if(int < 32){
         let rand = Math.floor(Math.random()*6)
         while(rand == lastint){
@@ -26,12 +28,10 @@ function mainHandler(int, lastint){
         setTimeout(mainHandler, 310+randomTimer*325, int+1)
     }else{
         resetScore()
+        start.setAttribute('onclick', 'mainHandler(0,-1)')
     }
 }
 
-function start(){
-    mainHandler(0, -1)
-}
 
 
 function addPoint(mole){
