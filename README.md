@@ -10,7 +10,7 @@
 
 ## Хийх заавар
 
-Хийх зааврыг [issues](https://github.com/Leap2k20/js-whack-a-mole/issues) хуудаснаас хараарай.
+Хийх зааврыг [issues](https://github.com/Baiteruud/Whack-a-mole/issues) хуудаснаас хараарай.
 
 ## Resources
 
@@ -18,6 +18,4 @@
 Font: https://fonts.googleapis.com/css?family=Amatic+SC:400,700
 Images: `assets` folder дотор хэрэгцээт зургууд байгаа.
 
-![Mole](https://github.com/Leap2k20/js-whack-a-mole/blob/master/assets/mole.svg)
-![Dirt](https://github.com/Leap2k20/js-whack-a-mole/blob/master/assets/dirt.svg)
 # Whack-a-mole
