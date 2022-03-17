@@ -47,12 +47,17 @@ button{
 
 img{
     position: relative;
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none; 
 }
 .mole{
     bottom: -250px;
     width: 180px;
     height: 190px;
     margin-left: 15%;
+    transition: bottom 0.3s;
 }
 
 .dirt{
@@ -77,4 +82,5 @@ h1{
 
 .up{
     bottom: -40px;
+    transition: bottom 0.2s;
 }
